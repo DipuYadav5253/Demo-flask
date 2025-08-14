@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bank.css') }}">
+</head>
+<body>
+<div class="bank-container">
+    <div class="bank-form">
+        <div class="bank-logo">My Secure Bank</div>
+        <form method="POST">
+            <input type="text" name="account" placeholder="Account Number" class="bank-input" required>
+            <input type="password" name="password" placeholder="Password" class="bank-input" required>
+            <button type="submit" class="bank-btn">Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

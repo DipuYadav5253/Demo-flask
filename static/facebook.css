@@ -1,0 +1,49 @@
+
+body {
+    background-color: #f0f2f5;
+}
+.fb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fb-left {
+    margin-right: 40px;
+}
+.fb-logo {
+    font-size: 56px;
+    color: #1877f2;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.fb-subtext {
+    font-size: 28px;
+    max-width: 500px;
+    line-height: 1.2;
+}
+.fb-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    width: 350px;
+}
+.fb-form input {
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+}
+.fb-form button {
+    background-color: #1877f2;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.fb-create {
+    background-color: #42b72a;
+    margin-top: 10px;
+}
